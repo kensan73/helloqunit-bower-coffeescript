@@ -8,3 +8,6 @@ Start with the master branch then check out branches via steps.
 - step2
 .
 - stepn
+
+# Taken from
+coffeescript-application-development
