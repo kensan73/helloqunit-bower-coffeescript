@@ -1,0 +1,21 @@
+{
+  "name": "helloqunit",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "kensan73 <ken.60625@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "qunit": "^2.6.0",
+    "coffeescript": "1.1.2"
+  }
+}
