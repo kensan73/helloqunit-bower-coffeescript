@@ -2,30 +2,35 @@
 <html>
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <title>QUnit Test Suite</title>
   <link rel="stylesheet" href="bower_components/qunit/qunit/qunit.css" type="text/css" media="screen">
+
+  <script type="text/javascript"
+          src="bower_components/coffee-script/extras/coffee-script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.1/backbone-min.js"></script>
 </head>
 
 <body>
-  <h1 id="qunit-header">QUnit Tests</h1>
-  <h2 id="qunit-banner"></h2>
-  <div id="qunit-testrunner-toolbar"></div>
-  <h2 id="qunit-userAgent"></h2>
-  <ol id="qunit-tests"></ol>
-  <div id="qunit-fixture">
-  </div>
+<h1 id="qunit-header">QUnit Tests</h1>
+<h2 id="qunit-banner"></h2>
+<div id="qunit-testrunner-toolbar"></div>
+<h2 id="qunit-userAgent"></h2>
+<ol id="qunit-tests"></ol>
+<div id="qunit-fixture">
+</div>
 
-  <script type="text/javascript"
-    src="bower_components/qunit/qunit/qunit.js"></script>
+<script type="text/javascript"
+        src="bower_components/qunit/qunit/qunit.js"></script>
 
-  <!-- source files -->
+<!-- source files -->
+<script type="text/coffeescript" src="src/Calculator.coffee"></script>
 
-  <!-- tests -->
-
-  <script type="text/javascript" 
-    src="bower_components/coffeescript/extras/coffee-script.js"></script>
-
+<!-- tests -->
+<script type="text/coffeescript" src="tests/CalculatorTests.coffee"></script>
+<script type="text/coffeescript" src="tests/MyBackboneViewTests.coffee"></script>
 </body>
 
 </html>
