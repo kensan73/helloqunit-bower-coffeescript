@@ -15,7 +15,7 @@
     "tests"
   ],
   "devDependencies": {
-    "qunit": "^1.23.1",
-    "coffeescript": "1.1.2"
+    "coffee-script": "~1.8.0",
+    "qunit": "~1.17.1"
   }
 }
