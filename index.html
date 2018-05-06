@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <title>QUnit Test Suite</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.1/backbone-min.js"></script>
   <link rel="stylesheet" href="bower_components/qunit/qunit/qunit.css" type="text/css" media="screen">
+  <script src="lib/sinon-1.10.3.js"></script>
 </head>
 
 <body>
@@ -20,10 +24,13 @@
     src="bower_components/qunit/qunit/qunit.js"></script>
 
   <!-- source files -->
+  <script type="text/coffeescript" src="src/Calculator.coffee"></script>
+  <script type="text/coffeescript" src="src/MyView.coffee"></script>
 
   <!-- tests -->
-
-  <script type="text/javascript" 
+  <script type="text/coffeescript" src="tests/CalculatorTests.coffee"></script>
+  <script type="text/coffeescript" src="tests/MyViewTests.coffee"></script>
+  <script type="text/javascript"
     src="bower_components/coffee-script/extras/coffee-script.js"></script>
 
 </body>
